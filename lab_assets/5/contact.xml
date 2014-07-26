@@ -1,3 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<contact>SAMPLE CONTENT</contact>
+<contact>
+  <first_name>CONTENT</first_name>
+  <last_name></last_name>
+</contact>
