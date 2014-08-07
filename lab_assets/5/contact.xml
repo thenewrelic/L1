@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<markup>
-  <markup_1>CONTENT 1</markup_1>
-  <markup_2>CONTENT 2</markup_2>
-  <markup_3>CONTENT 3</markup_3>
-</markup>
+<contact>
+  <first_name>John</first_name>
+  <middle_name>Alexander</middle_name>
+  <last_name>Doe</last_name>
+  1234 N. Lifecycle Skills Ave.
+  Washington, DC 20001
+</contact>
