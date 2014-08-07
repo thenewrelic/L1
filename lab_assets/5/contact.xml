@@ -5,7 +5,10 @@
   <middle_name>Alexander</middle_name>
   <last_name>Doe</last_name>
   <address>
-    1234 N. Lifecycle Skills Ave.
-    Washington, DC 20001
+    <line_1>1234 N. Lifecycle Skills Ave.</line_1>
+    <line_2></line_2>
+    <city>Washington</city>
+    <state>DC</state>
+    <zip>20001</zip>
   </address>
 </contact>
