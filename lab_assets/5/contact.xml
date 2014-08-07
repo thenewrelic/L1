@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <contact>
-  <middle_name></middle_name>
-  <first_name></first_name>
-  <last_name></last_name>
+  <first_name>John</first_name>
+  <middle_name>Alexander</middle_name>
+  <last_name>Doe</last_name>
 </contact>
