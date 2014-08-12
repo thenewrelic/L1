@@ -1,11 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 
-
-
-  John
-  Doe
+<contact>
+  <first_name></first_name>
+  <last_name></last_name>
+  <address>
+      <city></city>
+      <state></state>
+      <zip></zip>
+  </address>
   
-      Phoenix
-      AZ
-      85044
-  
-  
+</contact>
