@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<contact type="customer" last_updated="2014-08-11 22:16:44">
+<contact 
+    type="customer" 
+    last_updated="2014-08-11 22:16:44"
+    usage_data="
+        111010101000101101011010010110100101100101010010
+        111010101000101101011010010110100101100101010010
+        111010101000101101011010010110100101100101010010
+    "
+    >
+  
   <first_name>John</first_name>
   <last_name>Doe</last_name>
-  <address postal_format="US">
+  
+  <address 
+    postal_format="US"
+    >
       <city>Los Angeles</city>
       <state>CA</state>
       <address_line_1></address_line_1>
       <zip>22204</zip>
   </address>
+
+    
 </contact>
     
