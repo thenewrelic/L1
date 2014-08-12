@@ -9,10 +9,12 @@
   <lcs:first_name>John</lcs:first_name>
   <lcs:last_name>Doe</lcs:last_name>
   
-  <progress>
+  <L1:progress>
     <L1:course_completion percent="20%"/>
     <L1:lab_completion lab="1" percent="20%"/>
-  </progress>
+  </L1:progress>
+  
+  <email>john.doe@lifecycleskills.com</email>
   
 </user>
     
