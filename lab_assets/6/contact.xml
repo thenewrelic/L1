@@ -5,15 +5,26 @@
     <contact>
       <first_name>John</first_name>
       <last_name>Doe</last_name>
-      <address>
-          <city>Los Angeles</city>
-          <state>CA</state>
-      </address>
+      <last_contacted></last_contacted>
+    </contact>
+    
+    <contact>
+      <first_name>Allison</first_name>
+      <last_name>Brown</last_name>
+      <last_contacted>03-15-2014</last_contacted>
+    </contact>
+    
+    <contact>
+      <first_name>Alex</first_name>
+      <last_name>Gray</last_name>
+      <last_contacted>12-02-2013</last_contacted>
     </contact>
     
     <contact>
       <first_name>Mary</first_name>
       <last_name>Smith</last_name>
+      <last_contacted>07-22-2013</last_contacted>
     </contact>
+    
     
 </contacts>
