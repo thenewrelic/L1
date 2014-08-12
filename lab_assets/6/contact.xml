@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <user 
-    xmlns:lcs="http://namespace.lifecycleskills.com/sample"
+    xmlns="http://default.lifecycleskills.com"
+    xmlns:lcs="http://namespace.lifecycleskills.com"
     xmlns:L1="http://namespace.lifecycleskills.com/sample"
     type="customer" 
     >
-  
-  <lcs:first_name>John</lcs:first_name>
-  <lcs:last_name>Doe</lcs:last_name>
-  
-  <progress>
-    <L1:course_completion percent="20%"/>
-    <L1:lab_completion lab="1" percent="20%"/>
-  </progress>
   
 </user>
     
