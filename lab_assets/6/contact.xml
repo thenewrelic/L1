@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <contact
-    xmlns:lcs2015="http://namespace.lifecycleskills.com"
+    xmlns="http://crm2010.lifecycleskills.com"
+    xmlns:crm2015="http://crm2015.lifecycleskills.com"
     >
     
     <address>
@@ -12,13 +13,13 @@
     </address>
     
     
-    <lcs2015:address>
+    <crm2015:address>
         <line_1>1234 East St.</line_1>
         <unit_type>Studio</unit_type>
         <unit_number>#4</unit_number>
         <zip>85044</zip>
         <city>Phoenix</city>
         <state>AZ</state>
-    </lcs2015:address>
+    </crm2015:address>
     
 </contact>
