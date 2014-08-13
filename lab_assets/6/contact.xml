@@ -1,21 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="103px" height="105px" viewBox="0 0 103 105" enable-background="new 0 0 103 105" xml:space="preserve">
+<?xml version="1.0" encoding="UTF-8"?>
 
-    <path fill="#303E4F" d="M86.648,17.966c-8.957-8.957-23.063-9.615-32.783-1.988c10.654,10.796,10.654,28.213,0,39.01
-    	c9.721,7.626,23.826,6.966,32.783-1.988C96.321,43.325,96.324,27.64,86.648,17.966"/>
-
-    <path fill="#303E4F" d="M88.635,55.252c-9.932,9.799-25.641,10.715-36.621,2.099l-2.497-1.958
-    	c-7.511,9.718-6.817,23.729,2.098,32.642c9.673,9.675,25.359,9.675,35.033,0C95.605,79.077,96.264,64.974,88.635,55.252"/>
-
-    <path fill="#303E4F" d="M43.916,58.879h-0.002c0,0,1.682-4.057,5.208-8.053C39.41,43.398,25.463,44.117,16.58,53
-    	c-9.675,9.674-9.675,25.36,0,35.034c8.956,8.955,23.061,9.616,32.782,1.987C41.121,81.67,39.169,69.169,43.916,58.879"/>
-
-    <path fill="#303E4F" d="M47.337,46.103c0,0,0.076,0.042,0.187,0.108c0.901,0.497,1.78,1.048,2.635,1.656
-    	c1.094,0.741,2.367,1.673,3.568,2.718c7.494-9.715,6.793-23.712-2.112-32.619c-9.675-9.675-25.361-9.674-35.035,0
-	c-8.957,8.956-9.615,23.061-1.988,32.782c8.777-8.659,22.177-10.368,32.745-4.639V46.103z"/>
-
+<contacts>
     
-</svg>
+    <contact>
+      <first_name>John</first_name>
+      <last_name>Doe</last_name>
+      <address>
+          <city>Los Angeles</city>
+          <state>CA</state>
+      </address>
+    </contact>
+    
+    <contact>
+      <first_name>Mary</first_name>
+      <last_name>Smith</last_name>
+      <email>msmith@lifecycleskills.com</email>
+    </contact>
+    
+</contacts>
