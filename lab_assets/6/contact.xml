@@ -3,6 +3,8 @@
     xmlns="http://namespaces.lifecycleskills.com/CRM2015"
     >
     
+    <first_name>John</first_name>
+    <last_name>Doe</last_name>
     <address>
         <line_1>1234 East St.</line_1>
         <unit_type>Studio</unit_type>
