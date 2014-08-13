@@ -1,25 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <contact
-    xmlns="http://namespaces.lifecycleskills.com/CRM2010"
-    xmlns:crm2015="http://namespaces.lifecycleskills.com/CRM2015"
+    xmlns="http://namespaces.lifecycleskills.com/CRM2015"
     >
     
     <address>
-        <line_1>1234 East St.</line_1>
-        <line_2>Studio #4</line_2>
-        <zip>85044</zip>
-        <city>Phoenix</city>
-        <state>AZ</state>
-    </address>
-    
-    
-    <crm2015:address>
         <line_1>1234 East St.</line_1>
         <unit_type>Studio</unit_type>
         <unit_number>#4</unit_number>
         <zip>85044</zip>
         <city>Phoenix</city>
         <state>AZ</state>
-    </crm2015:address>
+    </address>
     
 </contact>
