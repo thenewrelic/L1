@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <contact
-    xmlns="http://crm2010.lifecycleskills.com"
-    xmlns:crm2015="http://crm2015.lifecycleskills.com"
+    xmlns="http://namespaces.lifecycleskills.com/CRM2010"
+    xmlns:crm2015="http://namespaces.lifecycleskills.com/CRM2015"
     >
     
     <address>
