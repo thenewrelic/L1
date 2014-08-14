@@ -1,30 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<contact id="15">
+<contact>
 
     <first_name>John</first_name>
     <last_name>Doe</last_name>
-    <email>johndoe@lifecycleskills.com</email>
+
     <addresses>
     
         <address>
-            <line_one>1234 Industrial Park Way</line_one>
-            <city>Mesa</city>
-            <state>AZ</state>
+            <city>Arlington</city>
+            <state>VA</state>
+            <zip>22201</zip>
         </address>
-        
         <address>
-            <line_one>4321 Residential Ave.</line_one>
-            <city>Phoenix</city>
+            <city>Tucson</city>
             <state>AZ</state>
+            <zip>85701</zip>
         </address>
-        
-        <address>
-            <line_one>1234 Corporate Headquarters</line_one>
-            <city>Seattle</city>
-            <state>Wa</state>
-        </address>
-        
-        
+    
     </addresses>
+    
+    <emails>
+        <email>johndoework1@lifecycleskilss.com</email>
+        <email>johndoework2@lifecycleskilss.com</email>
+        <email>johndoehome1@lifecycleskilss.com</email>
+        <email>johndoejunk1@lifecycleskilss.com</email>
+    </emails>
 </contact>
