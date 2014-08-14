@@ -1,1 +1,1 @@
-URL: chrome://settings/clearBrowserData
+Domain: en.wikipedia.org (Josh B White)
