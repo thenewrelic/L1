@@ -1,29 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<contact>
+<contact 
+    id="1" 
+    exportDate="05-10-2014"
+    >
 
     <first_name>John</first_name>
     <last_name>Doe</last_name>
-
-    <addresses>
+    <email>johndoe@lifecycleskills.com</email>
     
-        <address>
-            <city>Arlington</city>
-            <state>VA</state>
-            <zip>22201</zip>
-        </address>
-        <address>
-            <city>Tucson</city>
-            <state>AZ</state>
-            <zip>85701</zip>
-        </address>
-    
-    </addresses>
-    
-    <emails>
-        <email>johndoework1@lifecycleskilss.com</email>
-        <email>johndoework2@lifecycleskilss.com</email>
-        <email>johndoehome1@lifecycleskilss.com</email>
-        <email>johndoejunk1@lifecycleskilss.com</email>
-    </emails>
 </contact>
