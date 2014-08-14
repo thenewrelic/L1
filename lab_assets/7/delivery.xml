@@ -7,15 +7,16 @@
             <city>Los Angeles</city>
             <state>CA</state>
         </address>
+        <emails>
+            <email>personal@lifecycleskills.com</email>
+            <email>work@lifecycleskills.com</email>
+            <email>spam@lifecycleskills.com</email>
+        </emails>
     </contact>
     <contact>
         <first_name>Mary</first_name>
         <last_name>Smith</last_name>
         <email>msmith@lifecycleskills.com</email>
     </contact>
-    <emails>
-        <email>personal@lifecycleskills.com</email>
-        <email>work@lifecycleskills.com</email>
-        <email>spam@lifecycleskills.com</email>
-    </emails>
+    
 </contacts>
