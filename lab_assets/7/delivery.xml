@@ -1,32 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 
-    Author: Joshua White 
-    Created: 4-12-2014
-    Last Modified: 8-16-2014
-    This document contains a list of CRM contacts. 
--->
 
 <contacts
     xmlns="http://namespaces.lifecycleskills.com/2010"
     xmlns:crm2015="http://namespaces.lifecycleskills.com/2015"
     >
     
-    <!-- This contact is ready for 2015 update -->
     <contact>
     
-        <first_name>John</first_name> <!-- Might be Johnathon-->
+        <first_name>John</first_name> 
         <last_name>Doe</last_name>
         <address>
             <city>Los Angeles</city>
             <state>CA</state>
         </address>
-        <email> <!-- TODO - Remove this in 2015 update  -->
+        
+        <!-- TODO - Remove this in 2015 update  -->
+        <email> 
             personal@lifecycleskills.com; 
             work@lifecycleskills.com;
             spam@lifecycleskills.com;
         </email> 
         
-        <crm2015:emails> <!-- Email ready for 2015 specification format -->
+        <crm2015:emails> 
             <email>personal@lifecycleskills.com</email>
             <email>work@lifecycleskills.com</email>
             <email>spam@lifecycleskills.com</email>
