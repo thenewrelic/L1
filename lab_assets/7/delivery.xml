@@ -11,10 +11,10 @@
     xmlns:crm2015="http://namespaces.lifecycleskills.com/2015"
     >
     
-    <!-- This contact is ready for 2015 update -JW -->
+    <!-- This contact is ready for 2015 update -->
     <contact>
     
-        <first_name>John</first_name>
+        <first_name>John</first_name> <!-- Might be Johnathon-->
         <last_name>Doe</last_name>
         <address>
             <city>Los Angeles</city>
