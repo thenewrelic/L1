@@ -1,29 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+    This document was exported by Lifecycle CRM exporter 2015 v1.0
+-->
 
-<contacts
-    xmlns="http://namespaces.lifecycleskills.com/2015"
+<contacts 
+    xmlns="http://namespaces.lifecycleskills.com/2015" 
     imported="true"
     >
     
-    <contact id="15">
+    <contact 
+        id="15"
+        >
     
         <first_name>John</first_name> 
         <last_name>Doe</last_name>
-       
-        <emails
-            preferred="23"
-            createdAt="UNKNOWN"
-        > 
         
-            <email id="23">
+        <!-- 
+            preferred property indicates the id of the 
+            email address to contact first 
+        -->
+        <emails 
+            createdAt="8-17-2014" 
+            preferred="24" 
+            > 
+        
+            <email 
+                id="23"
+                >
                 personal@lifecycleskills.com
             </email>
-            <email id="24">
-                work@lifecycleskills.com</email>
-            <email id="30">
+            
+            <!-- This is the preferred email -->
+            <email 
+                id="24"
+                >
+                work@lifecycleskills.com
+            </email>
+            
+            <email 
+                id="30"
+                >
                 spam@lifecycleskills.com
             </email>
-        
             
         </emails>
         
