@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Author: Joshua White -->
-<!-- This document contains a list of CRM contacts. -->
+<!-- 
+    Author: Joshua White 
+    Created: 4-12-2014
+    Last Modified: 8-14-2014
+    This document contains a list of CRM contacts. 
+-->
 
 <contacts>
-
+    
+    <!-- This contact is complete -JW -->
     <contact>
     
         <first_name>John</first_name>
@@ -19,7 +24,8 @@
         </emails>
         
     </contact>
-
+    
+    <!-- This contact needs additional information -JW -->
     <contact>
         <first_name>Mary</first_name>
         <last_name>Smith</last_name>
