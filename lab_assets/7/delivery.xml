@@ -5,15 +5,11 @@
     xmlns:crm2015="http://namespaces.lifecycleskills.com/2015"
     >
     
-    <contact>
+    <contact id="15">
     
         <first_name>John</first_name> 
         <last_name>Doe</last_name>
-        <address>
-            <city>Los Angeles</city>
-            <state>CA</state>
-        </address>
-        
+       
         <!-- TODO - Remove this in 2015 update  -->
         <email> 
             personal@lifecycleskills.com; 
