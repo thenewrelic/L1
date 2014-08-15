@@ -5,14 +5,12 @@
     <contact id="15">
     <first_name>John</first_name> 
     <last_name>Doe</last_name>
-       
-        <emails preferred="23" createdAt="UNKNOWN"> 
-        
-            <email id="23">personal@lifecycleskills.com</email>
-            <email id="24">work@lifecycleskills.com</email>
-            
-        </emails>
-        
-    </contact>
+ 
+    <emails preferred="23" createdAt="UNKNOWN"> 
     
+       <email id="23">personal@lifecycleskills.com</email>
+       <email id="24">work@lifecycleskills.com</email>
+
+    </emails>
+
 </contact>
