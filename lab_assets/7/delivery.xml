@@ -2,13 +2,16 @@
 <!-- 
     Author: Joshua White 
     Created: 4-12-2014
-    Last Modified: 8-14-2014
+    Last Modified: 8-16-2014
     This document contains a list of CRM contacts. 
 -->
 
-<contacts>
+<contacts
+    xmlns="http://namespaces.lifecycleskills.com/2010"
+    xmlns:crm2015="http://namespaces.lifecycleskills.com/2015"
+    >
     
-    <!-- This contact is complete -JW -->
+    <!-- This contact is ready for 2015 update -JW -->
     <contact>
     
         <first_name>John</first_name>
@@ -17,19 +20,18 @@
             <city>Los Angeles</city>
             <state>CA</state>
         </address>
-        <emails>
+        <email> <!-- TODO - Remove this in 2015 update  -->
+            personal@lifecycleskills.com; 
+            work@lifecycleskills.com;
+            spam@lifecycleskills.com;
+        </email> 
+        
+        <crm2015:emails> <!-- Email ready for 2015 specification format -->
             <email>personal@lifecycleskills.com</email>
             <email>work@lifecycleskills.com</email>
             <email>spam@lifecycleskills.com</email>
-        </emails>
+        </crm2015:emails>
         
-    </contact>
-    
-    <!-- This contact needs additional information -KL -->
-    <contact>
-        <first_name>Mary</first_name>
-        <last_name>Smith</last_name>
-        <email>msmith@lifecycleskills.com</email>
     </contact>
     
 </contacts>
