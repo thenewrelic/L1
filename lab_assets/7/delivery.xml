@@ -2,6 +2,7 @@
 
 <contacts
     xmlns="http://namespaces.lifecycleskills.com/2015"
+    imported="true"
     >
     
     <contact id="15">
@@ -22,6 +23,8 @@
             <email id="30">
                 spam@lifecycleskills.com
             </email>
+        
+            
         </emails>
         
     </contact>
