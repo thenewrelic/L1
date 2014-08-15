@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <contacts
-    xmlns="http://namespaces.lifecycleskills.com/2010"
-    xmlns:crm2015="http://namespaces.lifecycleskills.com/2015"
+    xmlns="http://namespaces.lifecycleskills.com/2015"
     >
     
     <contact id="15">
@@ -10,18 +9,20 @@
         <first_name>John</first_name> 
         <last_name>Doe</last_name>
        
-        <!-- TODO - Remove this in 2015 update  -->
-        <email> 
-            personal@lifecycleskills.com; 
-            work@lifecycleskills.com;
-            spam@lifecycleskills.com;
-        </email> 
+        <emails
+            preferred="23"
+            createdAt="UNKNOWN"
+        > 
         
-        <crm2015:emails> 
-            <email>personal@lifecycleskills.com</email>
-            <email>work@lifecycleskills.com</email>
-            <email>spam@lifecycleskills.com</email>
-        </crm2015:emails>
+            <email id="23">
+                personal@lifecycleskills.com
+            </email>
+            <email id="24">
+                work@lifecycleskills.com</email>
+            <email id="30">
+                spam@lifecycleskills.com
+            </email>
+        </emails>
         
     </contact>
     
