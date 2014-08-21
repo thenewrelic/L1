@@ -2,7 +2,7 @@
 (function() {
   var app;
 
-  app = app.module('htmlIframe');
+  app = angular.module('htmlIframe');
 
   app.service('StepTests', function($rootElement) {
     return {
