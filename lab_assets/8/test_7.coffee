@@ -10,7 +10,7 @@ app.service 'StepTests', ($rootElement) ->
         fn: ->
           $('HEAD').length > 0
       ,
-        name: "has at least one H3 tag."
+        name: "has at least one H3 tag"
         fn: ->
           $('H3').length > 0
 

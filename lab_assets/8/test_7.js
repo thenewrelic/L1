@@ -18,7 +18,7 @@
             return $('HEAD').length > 0;
           }
         }, {
-          name: "has at least one H3 tag.",
+          name: "has at least one H3 tag",
           fn: function() {
             return $('H3').length > 0;
           }
