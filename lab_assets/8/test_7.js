@@ -6,6 +6,19 @@
 
   app.service('StepTests', function($rootElement) {
     return {
+      tests: [
+        {
+          name: "Has BODY",
+          fn: function() {
+            return $('BODY').length > 0;
+          }
+        }, {
+          name: "Has HEAD",
+          fn: function() {
+            return $('HEAD').length > 0;
+          }
+        }
+      ],
       run: function() {
         return console.log("RUNNING TESTS");
       }
