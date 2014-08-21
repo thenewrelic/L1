@@ -8,14 +8,19 @@
     return {
       tests: [
         {
-          name: "Has BODY",
+          name: "has a BODY tag",
           fn: function() {
             return $('BODY').length > 0;
           }
         }, {
-          name: "Has HEAD",
+          name: "has a HEAD tag",
           fn: function() {
             return $('HEAD').length > 0;
+          }
+        }, {
+          name: "has at least one H3 tag.",
+          fn: function() {
+            return $('H3').length > 0;
           }
         }
       ],
