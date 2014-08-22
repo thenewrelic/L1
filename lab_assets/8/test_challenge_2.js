@@ -35,7 +35,7 @@
         }, {
           name: "The i element contains the content 'John Doe'",
           fn: function() {
-            return $('body>h3>i').content === "John Doe";
+            return $('body>h3>i').html() === "John Doe";
           }
         }
       ],

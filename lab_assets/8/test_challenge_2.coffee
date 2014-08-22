@@ -25,7 +25,7 @@ app.service 'StepTests', ($rootElement) ->
         name:
           "The i element contains the content 'John Doe'"
         fn: ->
-          $('body>h3>i').content == "John Doe"
+          $('body>h3>i').html() == "John Doe"
 
 
 
