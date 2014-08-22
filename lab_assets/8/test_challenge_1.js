@@ -8,19 +8,24 @@
     return {
       tests: [
         {
-          name: "has a BODY tag",
+          name: "document has a BODY tag",
           fn: function() {
             return $('BODY').length > 0;
           }
         }, {
-          name: "has a HEAD tag",
+          name: "document has a HEAD tag",
           fn: function() {
             return $('HEAD').length > 0;
           }
         }, {
-          name: "has at least one H3 tag",
+          name: "document has a h1 tag",
           fn: function() {
-            return $('H3').length > 0;
+            return $('body h1').length > 0;
+          }
+        }, {
+          name: "h1 tag has content 'My Solution'",
+          fn: function() {
+            return $('body h1').html() === "My Solution";
           }
         }
       ],

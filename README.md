@@ -6,4 +6,9 @@ This repository contains many of the source files used in lessons. As a Lifecycl
 
 > npm install -g coffee-script
 
+# To have coffee auto create the js files from coffee
+# you can run
+
+> coffee -wc lab_assets/
+
 
