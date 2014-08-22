@@ -8,24 +8,29 @@
     return {
       tests: [
         {
-          name: "document has a BODY tag",
+          name: "H1 element has content 'Recent Activity' with no additional spaces",
           fn: function() {
-            return $('BODY').length > 0;
+            return $.trim($('BODY>H1').html()) === "Recent Activity";
           }
         }, {
-          name: "document has a HEAD tag",
+          name: "P element has content 'List f contacts below.' with no additional spaces",
           fn: function() {
-            return $('HEAD').length > 0;
+            return $.trim($('BODY>P').html()) === "List of contacts below";
           }
         }, {
-          name: "document has a h1 tag",
+          name: "The BODY has two H3 child elements",
           fn: function() {
-            return $('body h1').length > 0;
+            return $('BODY>H3').length === 2;
           }
         }, {
-          name: "h1 tag has content 'My Solution'",
+          name: "The content 'John Doe' is contained within the first H3 element",
           fn: function() {
-            return $('body h1').html() === "My Solution";
+            return $.trim($($('BODY>h3')[0]).html()) === "John Doe";
+          }
+        }, {
+          name: "The content 'Mary Smith' is contained within the second H3 element",
+          fn: function() {
+            return $.trim($($('BODY>h3')[1]).html()) === "Mary Smith";
           }
         }
       ],
