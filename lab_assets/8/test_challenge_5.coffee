@@ -2,21 +2,21 @@ app = angular.module('htmlIframe')
 app.service 'StepTests', ($rootElement) ->
   tests:
     [
-        name: "document has a BODY tag"
+        name: "H1 has one class 'jumbotron'"
         fn: ->
-          $('BODY').length > 0
+          $('body>h1').prop('class') == 'jumbotron'
       ,
-        name: "document has a HEAD tag"
+        name: "LI exists with an id of '31'"
         fn: ->
-          $('HEAD').length > 0
+          $("li#31").length > 0
       ,
-        name: "document has a h1 tag"
+        name: "LI #31 has one class: 'recent-contact'"
         fn: ->
-          $('body h1').length > 0
+          $("li#31").prop('class') == 'recent-contact'
       ,
-        name: "h1 tag has content 'My Solution'"
+        name: "LI #31 has content 'Mary Smith'"
         fn: ->
-          $('body h1').html() == "My Solution"
+          $.trim($('li#31').html()) == "Mary Smith"
 
 
 
