@@ -13,9 +13,9 @@
             return $.trim($('BODY>H1').html()) === "Recent Activity";
           }
         }, {
-          name: "P element has content 'List f contacts below.' with no additional spaces",
+          name: "P element has content 'List of contacts below.' with no additional spaces",
           fn: function() {
-            return $.trim($('BODY>P').html()) === "List of contacts below";
+            return $.trim($('BODY>P').html()) === "List of contacts below.";
           }
         }, {
           name: "The BODY has two H3 child elements",
