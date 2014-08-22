@@ -2,17 +2,17 @@ app = angular.module('htmlIframe')
 app.service 'StepTests', ($rootElement) ->
   tests:
     [
-        name: "has a BODY tag"
+        name: "Document has a BODY tag"
         fn: ->
           $('BODY').length > 0
       ,
-        name: "has a HEAD tag"
+        name: "Document has a HEAD tag"
         fn: ->
           $('HEAD').length > 0
       ,
-        name: "has at least one H3 tag"
+        name: "Body has at least one H3 tag"
         fn: ->
-          $('H3').length > 0
+          $('body>h3').length > 0
 
     ]
 

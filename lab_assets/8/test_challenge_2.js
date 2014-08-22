@@ -8,12 +8,17 @@
     return {
       tests: [
         {
-          name: "The paragraph element has a bold tag child element.",
+          name: "Body contains P child element",
+          fn: function() {
+            return $('body>p').length > 0;
+          }
+        }, {
+          name: "Paragraph contains a B child element",
           fn: function() {
             return $('body>p>b').length > 0;
           }
         }, {
-          name: "The bold element contains the content 'contacts'",
+          name: "B element contains the content 'contacts'",
           fn: function() {
             return $('body>p>b').html() === "contacts";
           }
@@ -28,12 +33,12 @@
             return $('body').children()[2].tagName === "H3";
           }
         }, {
-          name: "The h3 element contains an i element ",
+          name: "H3 element contains an I element ",
           fn: function() {
             return $('body>h3>i').length > 0;
           }
         }, {
-          name: "The i element contains the content 'John Doe'",
+          name: "I element contains the content 'John Doe'",
           fn: function() {
             return $('body>h3>i').html() === "John Doe";
           }

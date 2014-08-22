@@ -2,11 +2,15 @@ app = angular.module('htmlIframe')
 app.service 'StepTests', ($rootElement) ->
   tests:
     [
-        name: "The paragraph element has a bold tag child element."
+        name: "Body contains P child element"
+        fn: ->
+          $('body>p').length > 0
+      ,
+        name: "Paragraph contains a B child element"
         fn: ->
           $('body>p>b').length > 0
       ,
-        name: "The bold element contains the content 'contacts'"
+        name: "B element contains the content 'contacts'"
         fn: ->
           $('body>p>b').html() == "contacts"
       ,
@@ -18,12 +22,12 @@ app.service 'StepTests', ($rootElement) ->
         fn: ->
           $('body').children()[2].tagName == "H3"
       ,
-        name: "The h3 element contains an i element "
+        name: "H3 element contains an I element "
         fn: ->
           $('body>h3>i').length > 0
       ,
         name:
-          "The i element contains the content 'John Doe'"
+          "I element contains the content 'John Doe'"
         fn: ->
           $('body>h3>i').html() == "John Doe"
 
