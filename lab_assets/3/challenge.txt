@@ -1,1 +1,1 @@
-Certificate Aurhority: VeriSign
+Certificate Authority: 
